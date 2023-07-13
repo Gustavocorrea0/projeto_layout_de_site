@@ -1,0 +1,1452 @@
+form2 {
+
+    position: relative;
+    width: 1360px;
+    height: 1044px;
+    left: 0px;
+    top: 0px;
+}
+
+.bootstrap {
+    position: relative;
+    width: 1360px;
+    height: 70px;
+    left: -9px;
+    top: 0;
+    background: #031C45;
+}
+
+.home a,
+.quemSomos a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home {
+    position: absolute;
+    width: 77px;
+    height: 37px;
+    left: 822px;
+    top: 22.12px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 9999; /* Defina um valor alto para garantir que fique acima dos outros elementos */
+}
+
+.quemSomos {
+    position: relative;
+    width: 177px;
+    height: 37px;
+    left: 932px;
+    top: -53px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 9999; /* Defina um valor alto para garantir que fique acima dos outros elementos */
+}
+
+
+
+
+
+
+.instagram {
+    /* Instagram */
+
+    position: absolute;
+    width: 90px;
+    height: 54px;
+    left: 1168px;
+    top: 13px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.facebook {
+    /* Vector */
+
+    position: absolute;
+    width: 90px;
+    height: 54px;
+    left: 1278px;
+    top: 14px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.imagem-container {
+    width: 1360px;
+    /* Largura desejada */
+    height: 300px;
+    /* Altura desejada */
+    position: relative;
+    /* Permite posicionar a imagem dentro do contêiner */
+    top: 90px;
+    /* Distância em relação ao topo */
+    left: -1px;
+    /* Distância em relação à esquerda */
+    z-index: -1;
+    /* Posiciona a imagem por baixo de outros elementos */
+}
+
+.imagem-container img {
+    width: 100%;
+    /* Faz a imagem ocupar toda a largura do contêiner */
+    height: 100%;
+    /* Faz a imagem ocupar toda a altura do contêiner */
+    object-fit: cover;
+    /* Redimensiona a imagem para preencher o contêiner */
+}
+
+
+.imgcarrocel {
+    /* umfg */
+
+    position: absolute;
+    width: 432px;
+    height: 206px;
+    left: 837px;
+    top: 120px;
+
+    background: url(https://umfg.edu.br/wp-content/themes/facec/assets/img/logo-amarela.png);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.escritaCarrocel {
+    position: absolute;
+    width: 669px;
+    height: 106px;
+    left: 74px;
+    top: 130px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.escritaTemplate {
+    position: absolute;
+    width: 506px;
+    height: 25px;
+    left: 159px;
+    top: 280px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+form {
+    position: absolute;
+    width: 1360px;
+    height: 1044px;
+    left: 0px;
+    top: -20px;
+}
+
+.webBrowsers {
+    /* TITULO WEB BROWSERS */
+
+    position: absolute;
+    left: 2.56%;
+    right: 89.57%;
+    top: 37.62%;
+    bottom: 60.44%;
+
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+.mensageiro {
+    /* TITULO  */
+
+    position: absolute;
+    left: 18.65%;
+    right: 74.29%;
+    top: 37.62%;
+    bottom: 60.44%;
+
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+.compactadores {
+    /* Compactador */
+
+    position: absolute;
+    left: 34.63%;
+    right: 56.53%;
+    top: 37.62%;
+    bottom: 58.51%;
+
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+.bancodeDados {
+    /* Banco de dados */
+
+    position: absolute;
+    left: 50.81%;
+    right: 40.21%;
+    top: 37.62%;
+    bottom: 60.44%;
+
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.IDE {
+    /* IDE’s */
+
+    position: absolute;
+    left: 67.2%;
+    right: 80;
+    top: 37.62%;
+    bottom: 60.44%;
+
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.icon {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -30px;
+    top: -5px;
+
+
+}
+
+.googleChromeIcon {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/768px-Google_Chrome_icon_%28September_2014%29.svg.png');
+
+}
+
+.braveIcon {
+
+    background-image: url('https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/brave-browser-icon.svg');
+}
+
+.operaIcon {
+    background-image: url('https://static-00.iconduck.com/assets.00/opera-icon-256x256-qlbziq3o.png');
+}
+
+.mozilaIcon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/183/183320.png');
+}
+
+.discordIcon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3670/3670157.png');
+}
+
+.skypeIcon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174869.png');
+}
+
+.teamspeakIcon {
+    background-image: url('https://cdn.icon-icons.com/icons2/195/PNG/256/TeamSpeak_23428.png');
+}
+
+.telegramIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png');
+}
+
+.winrarIcon {
+    background-image: url('https://img.utdstc.com/icon/487/824/4878246f6401efb0b316f39a0a42548e51010cda94db8cf5f71347cbb3dbfc89:200');
+}
+
+.seteZipIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/7-Zip_Icon.svg/1280px-7-Zip_Icon.svg.png');
+}
+
+.daemontoolsIcon {
+    background-image: url('https://cdn.icon-icons.com/icons2/112/PNG/512/daemon_tools_18880.png');
+}
+
+.pgAdminIcon {
+    background-image: url('https://user-images.githubusercontent.com/48259258/98703700-87f5e500-235a-11eb-8f1c-c3894dda8765.png');
+}
+
+.mysqlIcon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968313.png');
+}
+
+.mangoDBIcon {
+    background-image: url('https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png');
+}
+
+.BDeaverIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/1200px-DBeaver_logo.svg.png');
+}
+
+.visualStudiocodeIcon {
+    background-image: url('https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png');
+}
+
+.intelijIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png');
+}
+
+.apacheIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1200px-Apache_NetBeans_Logo.svg.png');
+}
+
+.eclipseIcon {
+    background-image: url('https://user-images.githubusercontent.com/11943860/46922575-7017cf80-cfe1-11e8-845a-0cd198fb546c.png');
+}
+
+.visualStudioIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/1030px-Visual_Studio_Icon_2019.svg.png');
+}
+
+.codeBlockIcon {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/feaf74a2-da81-42f2-9c50-37686d02557a/d73n2y9-fc7e0a66-1dd8-42d2-9aba-29a33990067b.png/v1/fill/w_512,h_512/code__blocks_icon_by_grabusz_d73n2y9-fullview.png');
+}
+
+.arduinoIcon {
+    background-image: url('https://cdn.icon-icons.com/icons2/159/PNG/256/arduino_22429.png');
+}
+
+.googleChrome a,
+.brave a,
+.opera a,
+.mozila a,
+.discord a,
+.skype a,
+.teamspeak a,
+.telegram a,
+.winrar a,
+.seteZip a,
+.daemontools a,
+.pgAdmin a,
+.mysql a,
+.mangoDB a,
+.BDeaver a,
+.visualStudiocode a,
+.intelij a,
+.apache a,
+.eclipse a,
+.visualStudio a,
+.codeBlock a,
+.arduino a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.googleChrome {
+    /* CHROME */
+
+    position: absolute;
+    left: 4.41%;
+    right: 87.06%;
+    top: 40.91%;
+    bottom: 57.16%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}
+
+.DgoogleChrome {
+    /* Estilos para a div do Google Chrome e sua descrição */
+    /* DChrome */
+
+    position: absolute;
+    left: 1.99%;
+    right: 87.35%;
+    top: 43.13%;
+    bottom: 47%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.brave {
+    /* BRAVE */
+
+    position: absolute;
+    left: 4.41%;
+    right: 87.06%;
+    top: 54.35%;
+    bottom: 43.71%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Dbrave {
+    /* Estilos para a div do Brave e sua descrição */
+    /* DBrave */
+
+    position: absolute;
+    left: 1.99%;
+    right: 87.35%;
+    top: 56.87%;
+    bottom: 34.91%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.opera {
+    /* OPERA */
+
+    position: absolute;
+    left: 4.41%;
+    right: 87.06%;
+    top: 67.79%;
+    bottom: 30.27%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Dopera {
+    /* Estilos para a div do Opera e sua descrição */
+    /* DOpera */
+
+    position: absolute;
+    left: 1.99%;
+    right: 87.35%;
+    top: 70.02%;
+    bottom: 20.12%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.mozila {
+    /* MOZILA */
+
+    position: absolute;
+    left: 4.41%;
+    right: 87.06%;
+    top: 81.24%;
+    bottom: 16.83%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Dmozila {
+    /* Estilos para a div do Mozila e sua descrição */
+    /* DMozila */
+
+    position: absolute;
+    left: 1.99%;
+    right: 87.06%;
+    top: 83.75%;
+    bottom: 8.51%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.discord {
+    /* DISCORD */
+
+    position: absolute;
+    left: 20.96%;
+    right: 72.79%;
+    top: 40.91%;
+    bottom: 57.16%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Ddiscord {
+    /* Estilos para a div do Discord e sua descrição */
+    /* DDiscord */
+
+    position: absolute;
+    left: 18.46%;
+    right: 70.88%;
+    top: 43.13%;
+    bottom: 50.29%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.skype {
+    /* SKYPE */
+
+    position: absolute;
+    left: 20.96%;
+    right: 72.79%;
+    top: 54.35%;
+    bottom: 43.71%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Dskype {
+    /* Estilos para a div do Skype e sua descrição */
+    /* DSkype */
+
+    position: absolute;
+    left: 18.46%;
+    right: 70.88%;
+    top: 56.87%;
+    bottom: 34.91%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.teamspeak {
+    /* TEAMSPEAK */
+
+    position: absolute;
+    left: 20.96%;
+    right: 72.79%;
+    top: 67.79%;
+    bottom: 30.27%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Dteamspeak {
+    /* Estilos para a div do TeamSpeak e sua descrição */
+    /* DTeamSpeak */
+
+    position: absolute;
+    left: 18.46%;
+    right: 70.88%;
+    top: 70.31%;
+    bottom: 20.41%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.telegram {
+    /* telegran */
+
+    position: absolute;
+    left: 20.96%;
+    right: 72.79%;
+    top: 81.33%;
+    bottom: 16.73%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Dtelegram {
+    /* Estilos para a div do Telegram e sua descrição */
+    /* DTelegran */
+
+    position: absolute;
+    left: 18.46%;
+    right: 70.88%;
+    top: 83.75%;
+    bottom: 8.51%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.winrar {
+    /* winrar */
+
+    position: absolute;
+    left: 37.6%;
+    right: 54.82%;
+    top: 40.91%;
+    bottom: 57.16%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}
+
+.Dwinrar {
+    /* Estilos para a div do WinRAR e sua descrição */
+    /* DWinrar */
+
+    position: absolute;
+    left: 34.63%;
+    right: 54.71%;
+    top: 43.13%;
+    bottom: 48.65%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.seteZip {
+    /* 7zip */
+
+    position: absolute;
+    left: 37.6%;
+    right: 54.82%;
+    top: 54.35%;
+    bottom: 43.71%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.DseteZip {
+    /* Estilos para a div do 7-Zip e sua descrição */
+    /* D7zip */
+
+    position: absolute;
+    left: 34.63%;
+    right: 54.71%;
+    top: 56.58%;
+    bottom: 33.56%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.daemontools {
+    /* daemontools */
+
+    position: absolute;
+    left: 37.53%;
+    right: 54.9%;
+    top: 67.6%;
+    bottom: 30.46%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Ddaemontools {
+    /* Estilos para a div do DAEMON Tools e sua descrição */
+    /* DDaemonTools */
+
+    position: absolute;
+    left: 34.63%;
+    right: 54.71%;
+    top: 70.31%;
+    bottom: 20.41%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.pgAdmin {
+    /* pgAdmin */
+
+    position: absolute;
+    left: 53.31%;
+    right: 41.79%;
+    top: 40.91%;
+    bottom: 57.16%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.DpgAdmin {
+    /* Estilos para a div do pgAdmin e sua descrição */
+    /* DPgAdmin */
+
+    position: absolute;
+    left: 50.81%;
+    right: 38.53%;
+    top: 43.13%;
+    bottom: 50.29%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.mysql {
+    /* mySQL */
+
+    position: absolute;
+    left: 53.31%;
+    right: 42.68%;
+    top: 54.35%;
+    bottom: 43.71%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Dmysql {
+    /* Estilos para a div do MySQL e sua descrição */
+    /* DMySQL */
+
+    position: absolute;
+    left: 50.81%;
+    right: 38.53%;
+    top: 56.87%;
+    bottom: 34.91%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.mangoDB {
+    /* mongodb */
+
+    position: absolute;
+    left: 53.31%;
+    right: 41.42%;
+    top: 67.6%;
+    bottom: 30.46%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.DmangoDB {
+    /* Estilos para a div do MongoDB e sua descrição */
+    /* DMongoDB */
+
+    position: absolute;
+    left: 50.81%;
+    right: 38.53%;
+    top: 70.02%;
+    bottom: 25.34%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.BDeaver {
+    /* Dbeaver */
+
+    position: absolute;
+    left: 53.31%;
+    right: 38.38%;
+    top: 81.43%;
+    bottom: 16.63%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.DBDeaver {
+    /* Estilos para a div do BDeaver e sua descrição */
+    /* DTelegran */
+
+    position: absolute;
+    left: 50.81%;
+    right: 38.53%;
+    top: 83.75%;
+    bottom: 10.06%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.visualStudiocode {
+    /* Vscode */
+
+    position: absolute;
+    left: 69.39%;
+    right: 20.22%;
+    top: 40.91%;
+    bottom: 57.16%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+.DvisualStudiocode {
+    /* Estilos para a div do Visual Studio Code e sua descrição */
+    /* DVsCode */
+
+    position: absolute;
+    left: 67.17%;
+    right: 20.25%;
+    top: 43.13%;
+    bottom: 45.84%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.intelij {
+    /* IntelliJ IDEA */
+
+    position: absolute;
+    left: 69.4%;
+    right: 24.21%;
+    top: 54.35%;
+    bottom: 43.71%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+.Dintelij {
+    /* Estilos para a div do Intelij IDEA e sua descrição */
+    /* DIntellij IDEA */
+
+    position: absolute;
+    left: 67.17%;
+    right: 20.25%;
+    top: 56.87%;
+    bottom: 32.11%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.apache {
+    /* apacheNetBeans */
+
+    position: absolute;
+    left: 69.4%;
+    right: 20.72%;
+    top: 67.6%;
+    bottom: 30.46%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+.Dapache {
+    /* Estilos para a div do Apache NetBeans e sua descrição */
+    /* DApache NetBeans */
+
+    position: absolute;
+    left: 67.17%;
+    right: 20.26%;
+    top: 70.02%;
+    bottom: 18.96%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.eclipse {
+    /* Eclipse */
+
+    position: absolute;
+    left: 69.4%;
+    right: 26.74%;
+    top: 81.24%;
+    bottom: 16.83%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+.Declipse {
+    /* Estilos para a div do Eclipse e sua descrição */
+    /* DEclipse */
+
+    position: absolute;
+    left: 67.14%;
+    right: 20.29%;
+    top: 83.66%;
+    bottom: 8.51%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.visualStudio {
+    /* Visual Studio */
+
+    position: absolute;
+    left: 87.87%;
+    right: 1.74%;
+    top: 40.91%;
+    bottom: 57.16%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.DvisualStudio {
+    /* Estilos para a div do Visual Studio e sua descrição */
+    /* DVisual Studio */
+
+    position: absolute;
+    left: 85.33%;
+    right: 2.09%;
+    top: 43.13%;
+    bottom: 45.84%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.codeBlock {
+    /* CodeBlock */
+
+    position: absolute;
+    left: 87.87%;
+    right: 5.6%;
+    top: 54.35%;
+    bottom: 43.71%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.DcodeBlock {
+    /* Estilos para a div do CodeBlocks e sua descrição */
+    /* DCode Block */
+
+    position: absolute;
+    left: 85.37%;
+    right: 2.06%;
+    top: 56.87%;
+    bottom: 32.11%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+.arduino {
+    /* Arduino */
+
+    position: absolute;
+    left: 87.87%;
+    right: 7.75%;
+    top: 67.6%;
+    bottom: 30.46%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+
+}
+
+.Darduino {
+    /* Estilos para a div do Arduino e sua descrição */
+    /* DCode Block */
+
+    position: absolute;
+    left: 85.37%;
+    right: 2.06%;
+    top: 70.02%;
+    bottom: 18.96%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #2E2E2E;
+
+
+}
+
+
+
+
+
+
+
+footer {
+
+    position: absolute;
+    width: 1360px;
+    height: 88px;
+    left: 0px;
+    top: 946px;
+
+    background: #031C45;
+    /* © 2022–2024 ADS UMFG */
+
+
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
